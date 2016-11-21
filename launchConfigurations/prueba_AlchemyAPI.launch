@@ -1,0 +1,20 @@
+{
+  "ServiceId": "com.ibm.cloudoe.orion.client.deploy",
+  "Params": {
+    "Target": {
+      "Url": "https://api.ng.bluemix.net",
+      "Org": "MAHUM",
+      "Space": "MAHUM"
+    },
+    "Name": "prueba_AlchemyAPI",
+    "Instrumentation": {
+      "host": "prueba_AlchemyAPI",
+      "domain": "mybluemix.net",
+      "services": [
+        "AlchemyAPI-ed"
+      ]
+    }
+  },
+  "Path": "manifest.yml",
+  "Type": "Cloud Foundry"
+}
